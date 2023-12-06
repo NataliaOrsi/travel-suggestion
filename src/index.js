@@ -14,7 +14,7 @@ function generateTravelDestination(event) {
   let instructions = document.querySelector("#user-instructions");
   let prompt = `User instructions: Generate a travel destination based on ${instructions.value}`;
   let context =
-    "You're a travel expert and know every city in the World. Your mission is to generate a city destinations in basic HTML. Make sure to follow the user instructions. ONLY provide the name of the city. Do NOT include travel destination";
+    "You're a travel expert and know every city in the World. Your mission is to generate a city destinations in basic HTML as the example <p>Amsterdam</p>. Make sure to follow the user instructions. ONLY provide the name of the city. Do NOT include travel destination.";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
   let cityElement = document.querySelector("#city");
