@@ -2,3 +2,22 @@ body {
     background-color: rgb(253, 241, 252);
 }
 
+footer {
+    position: absolute;
+    bottom: 5px;
+    width: 100vh;
+    height: 2.5rem;   
+}
+
+.city {
+  font-size: 16px;
+  background-color: #fff;
+  padding: 10px;
+  line-height: 2;
+  border-left: 3px solid #f5a6b1;
+  box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
+}
+
+.hidden {
+  display: none;
+}
