@@ -2,7 +2,7 @@ function displayCity(response) {
   new Typewriter("#city", {
     strings: response.data.answer,
     autoStart: true,
-    delay: 20,
+    delay: 10,
     cursor: "",
   });
 }
